@@ -14,7 +14,7 @@ end
 
 
 def run_guessing_game
-  the_number = generate_number
+  the_number = generate_number.to_s
   puts the_number
   puts "the_number class is #{the_number.class}"
   prompt_user
