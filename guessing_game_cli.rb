@@ -18,7 +18,7 @@ def run_guessing_game
   puts the_number
   puts "the_number class is #{the_number.class}"
   prompt_user
-  guess = gets.chomp.to_i
+  guess = gets.chomp
   puts "guess class is #{guess.class}"
     if guess == the_number
       puts "You guessed the correct number!"
