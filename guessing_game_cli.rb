@@ -2,6 +2,10 @@
 
 
 def generate_number
+  rand(6) + 1
+end
+
+def prompt_user
   
 end
 
@@ -14,7 +18,6 @@ end
 
 
 
-
-run_guessing_game
+def run_guessing_game
 
 end
