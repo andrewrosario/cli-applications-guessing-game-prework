@@ -15,7 +15,6 @@ end
 
 def run_guessing_game
   the_number = generate_number
-  correct? = false
   prompt_user
   guess = gets.chomp
   case guess
