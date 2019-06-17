@@ -11,8 +11,6 @@ end
 
 
 
-
-
 def run_guessing_game
   the_number = generate_number.to_s
   puts the_number
