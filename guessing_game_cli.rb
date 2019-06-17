@@ -17,7 +17,7 @@ def run_guessing_game
   the_number = generate_number
   puts the_number
   prompt_user
-  guess = gets.chomp
+  guess = gets.chomp.to_i
   puts guess
   case guess
     when guess == the_number
