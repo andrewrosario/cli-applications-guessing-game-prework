@@ -20,7 +20,6 @@ def run_guessing_game
   prompt_user
   guess = gets.chomp.to_i
   puts "guess class is #{guess.class}"
-  case guess
     if guess == the_number
       puts "You guessed the correct number!"
     elsif guess == 'exit'
