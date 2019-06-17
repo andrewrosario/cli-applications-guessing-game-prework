@@ -15,8 +15,10 @@ end
 
 def run_guessing_game
   the_number = generate_number
+  puts the_number
   prompt_user
   guess = gets.chomp
+  puts guess
   case guess
     when guess == the_number
       puts "You guessed the correct number!"
